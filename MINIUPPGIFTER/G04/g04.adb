@@ -1,7 +1,7 @@
 with Ada.Text_IO;          use Ada.Text_IO;
 with Ada.Integer_Text_IO;  use Ada.Integer_Text_IO;
 
-procedure Heltal is
+procedure g04 is
    
    iLoopCount : Integer;
    Space : Character := ' ';
@@ -18,4 +18,4 @@ procedure Heltal is
 	 Put(Space);
       end loop;
          
-   end Heltal;
+   end g04;
