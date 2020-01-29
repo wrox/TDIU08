@@ -1,7 +1,7 @@
 with Ada.Text_IO;          use Ada.Text_IO;
 with Ada.Integer_Text_IO;  use Ada.Integer_Text_IO;
 
-procedure Heltal is
+procedure g05 is
    
    function fFactorial(N: in Integer) return Integer is
       begin
@@ -22,4 +22,4 @@ procedure Heltal is
       Put("! = ");
       Put(fFactorial(iUserInput), Width=>0);
       
-   end Heltal;
+   end g05;
